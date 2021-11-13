@@ -1,3 +1,10 @@
 // Dont emit js code if there is an error
 tsc --noEmitOnError hello.ts 
 
+// Target ECMAScript 2015
+tsc --target es2015 hello.ts
+
+// Turn on strict mode 
+tsc --strict hello.ts
+tsc --noImplicitAny hello.ts
+tsc --strictNullChecks hello.ts 
