@@ -8,3 +8,4 @@ tsc --target es2015 hello.ts
 tsc --strict hello.ts
 tsc --noImplicitAny hello.ts
 tsc --strictNullChecks hello.ts 
+tsc types.ts --strictNullChecks --noEmitOnError; node types.js
