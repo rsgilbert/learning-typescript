@@ -165,8 +165,13 @@ getFirst2('strandend')
     // console.log(oneHun * oneHun)
     var firstName = Symbol("name");
     var lastName = Symbol("name");
-    console.log(firstName, lastName);
-    console.log(typeof firstName);
-    console.log(typeof firstName === typeof lastName);
+    // console.log(firstName, lastName);
+    // console.log(typeof firstName);
+    // console.log(typeof firstName === typeof lastName);
     // console.log(firstName == lastName)
 }
+
+const k = () => {}
+// console.log(typeof k)
+// console.log(typeof(undefined))
+// console.log(typeof null)
