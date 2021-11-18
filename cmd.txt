@@ -9,3 +9,6 @@ tsc --strict hello.ts
 tsc --noImplicitAny hello.ts
 tsc --strictNullChecks hello.ts 
 tsc types.ts --strictNullChecks --noEmitOnError; node types.js
+
+// multiple commands
+tsc functions.ts ; node functions.js ; rm functions.js
