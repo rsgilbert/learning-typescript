@@ -15,3 +15,14 @@ tsc functions.ts ; node functions.js ; rm functions.js
 
 // Install deno
 curl -fsSL https://deno.land/x/install/install.sh | sh
+
+// Configure deno vscode extension to work 
+// See: https://github.com/denoland/vscode_deno/issues/234
+sudo ln -s ~/.deno/bin/deno /usr/bin 
+// Then restart vscode 
+
+// Run command for running script with permissions for reading files
+deno run --allow-read ./deno/read-file.js 
+
+// Allow network access 
+deno run --allow-net ./deno/api-req.js 
