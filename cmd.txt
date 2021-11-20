@@ -12,3 +12,6 @@ tsc types.ts --strictNullChecks --noEmitOnError; node types.js
 
 // multiple commands
 tsc functions.ts ; node functions.js ; rm functions.js
+
+// Install deno
+curl -fsSL https://deno.land/x/install/install.sh | sh

@@ -12,4 +12,5 @@ function f12(age) {
     console.log('Age is', age.ain);
 }
 var k = f12(3);
-console.log(k.toString());
+// console.log(k.toString());
+// 
