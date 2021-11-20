@@ -26,3 +26,8 @@ deno run --allow-read ./deno/read-file.js
 
 // Allow network access 
 deno run --allow-net ./deno/api-req.js 
+
+// See deno information like cache location etc 
+deno info
+
+
