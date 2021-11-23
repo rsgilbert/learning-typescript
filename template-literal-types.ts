@@ -1,7 +1,7 @@
 // Template literal types 
 // See: https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html
 
-import { type } from "os";
+
 
 type World = "world";
 
@@ -98,4 +98,4 @@ let uc1 : uncapitalized = 'ab'
 
 
 
-
+console.log(uc1)

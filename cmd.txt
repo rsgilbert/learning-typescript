@@ -31,3 +31,5 @@ deno run --allow-net ./deno/api-req.js
 deno info
 
 
+// Flag/setting for strick property initialization
+tsc --noEmitOnError --target es6 --strictPropertyInitialization --strictNullChecks class-support.ts 
