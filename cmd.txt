@@ -37,3 +37,7 @@ tsc --noEmitOnError --target es6 --strictPropertyInitialization --strictNullChec
 // Specifying module. Module can be umd, commonjs, es2020
 tsc --module es2020 ts-exp-usage.ts 
 
+// Concatenate output using outFile option to compile all 
+// of the input files into a single javascript output file 
+tsc --outFile my-validation-output.js validation-usage.ts
+
