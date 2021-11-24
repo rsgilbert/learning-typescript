@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var maths_js_1 = require("./maths.js");
+var m = require("./maths.js");
+console.log(maths_js_1.π2);
+var absPhi = (0, maths_js_1.absolute)(-maths_js_1.phi);
+console.log(absPhi);
+var message = new maths_js_1["default"]();
+console.log(message.month);
+console.log('math', m);

@@ -33,3 +33,7 @@ deno info
 
 // Flag/setting for strick property initialization
 tsc --noEmitOnError --target es6 --strictPropertyInitialization --strictNullChecks class-support.ts 
+
+// Specifying module. Module can be umd, commonjs, es2020
+tsc --module es2020 ts-exp-usage.ts 
+
