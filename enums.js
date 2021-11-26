@@ -147,9 +147,12 @@ var Week = {
     Tuesday: 1,
     Wednesday: 2,
     Thursday: undefined
-}; //as const;
+};
+var we = 'k';
+console.log(we);
 // console.log(Week.Wednesday)
 function logF2(w) {
     console.log('w is', w);
 }
+logF2(8);
 logF2(Week.Tuesday);

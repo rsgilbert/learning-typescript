@@ -226,10 +226,10 @@ const Week = {
     Thursday: undefined
 } //as const;
 
-// console.log(Week.Wednesday)
-
-function logF2(w: typeof Week[keyof typeof Week]) {
+// not working well
+function logF2(w: (typeof Week)[keyof typeof Week]) {
     console.log('w is', w)
 }
 
+logF2(8)
 logF2(Week.Tuesday)
